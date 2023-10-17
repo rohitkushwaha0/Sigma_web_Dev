@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" style="border-collapse: collapse;">
+    <thead>
+      <th rowspan="2">SUB. CODE</th>
+      <th rowspan="2">SUBJECT</th>
+      <th colspan="4">MARKS OBTAINED</th>
+      <th rowspan="2">POSITIONAL GRADE</th>
+      <tr>
+        <th>THEORY</th>
+        <th>IA/PR.</th>
+        <th>TOTAL (IN WORDS)</th>
+        <th>GRADE</th>
+      </tr>  
+    </thead>
+    <tbody>
+        <tr>
+            <td>184</td>
+            <td>ENGLISH LNG & LIT.</td>
+            <td>036</td>
+            <td>018</td>
+            <td>054</td>
+            <td>FIFTY FOUR</td>
+            <td>D1</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>HINDI COURSE-A</td>
+            <td>053</td>
+            <td>018</td>
+            <td>071</td>
+            <td>SEVENTY ONE</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>241</td>
+            <td>MATHEMATICS BASIC</td>
+            <td>031</td>
+            <td>019</td>
+            <td>050</td>
+            <td>FIFTY</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>087</td>
+            <td>SOCIAL SCIENCE</td>
+            <td>052</td>
+            <td>018</td>
+            <td>070</td>
+            <td>SEVENTY</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>ADDITIONAL SUBJECT</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>402</td>
+            <td>INFORMATION TECHNOLOGY</td>
+            <td>030</td>
+            <td>050</td>
+            <td>080</td>
+            <td>EIGHTY</td>
+            <td>C2</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5">RESULT</td>
+            <td colspan="2 ">PASS</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
