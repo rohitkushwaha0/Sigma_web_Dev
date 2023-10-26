@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.big {
+  width: 26vw;
+  height: 80vh;
+  background-color: white;
+  border: 1px solid darkgray;
+  border-radius: 15px;
+  margin-top: 60px;
+  padding: 8px;
+}
+
+.big .pic {
+  background-image: url("https://www.wallpaperflare.com/static/78/418/333/time-moon-man-boat-sea-wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 25.8vw;
+  height: 40vh;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.caption .box1 {
+  width: 8vw;
+  height: 5vh;
+  color: rgb(53, 45, 45);
+  background-color: transparent;
+  border: 2px solid darkgray;
+  border-radius: 20px;
+  margin: 0px 15px 0px 25px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.caption .box2 {
+  width: 8vw;
+  height: 5vh;
+  color: rgb(53, 45, 45);
+  background-color: transparent;
+  border: 2px solid darkgray;
+  border-radius: 20px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.big .para {
+  margin: 25px 0px 0px 15px;
+}
+
+.para > p {
+  margin-top: 15px;
+  color: rgb(61, 61, 61);
+}
+
+.readmore {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.readmore > button {
+    background-color:  rgb(189, 227, 240);
+    color: rgb(0, 110, 255);
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
